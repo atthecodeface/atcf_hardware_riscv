@@ -10,7 +10,7 @@ class ReveR(cdl_desc.Modules):
     c_src_dir    = "cmodel"
     src_dir      = "cdl"
     tb_src_dir   = "tb_cdl"
-    libraries = {"std":True, "apb":True, "video":True, "utils":True, "jtag":True, "i2c":True, "io":True, "ethernet":True, "reve_r":True}
+    libraries = {"std":True, "apb":True, "video":True, "utils":True, "jtag":True, "i2c":True, "io":True, "ethernet":True, "reve_r":True, "networking":True}
     cdl_include_dirs = ["cdl"]
     export_dirs = cdl_include_dirs + [ src_dir ]
     modules = []
